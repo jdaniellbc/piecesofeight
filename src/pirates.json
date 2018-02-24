@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/images/walter-kennedy-teaser.png",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "/assets/images/thomas-tew-teaser.png",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "/assets/images/mary-read-teaser.png",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "/assets/images/john-phillips-teaser.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "/assets/images/anne-bonny-teaser.png",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "/assets/images/bart-roberts-teaser.png",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "/assets/images/captain-halsey-teaser.png",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "/assets/images/captain-kidd-teaser.png",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "/assets/images/edward-england-teaser.png",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "/assets/images/francis-spriggs-teaser.png",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "/assets/images/howell-davis-teaser.png",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "/assets/images/samuel-bellamy-teaser.png",
+        "clicked": false
+    }
+]
