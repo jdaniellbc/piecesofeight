@@ -1,21 +1,29 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import PirateCard from './components/PirateCard';
+import Wrapper from "./components/Wrapper";
+// import Header from '.components/Header';
+import data from './data.json';
 import './App.css';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Pieces of Eight</h1>
-        </header>
-        <p className="App-intro">
-          Click each pirate without repeating or walk the plank!
-        </p>
-      </div>
-    );
-  }
-}
+        state = {
+                data
+        };
+        render() {
+                return (
+                        <Wrapper>
+                        <div>{this.state.data.map(pirate => (
+                                <PirateCard
+                                        // setClicked={this.setClicked}
+                                        id={pirate.id}
+                                        key={pirate.id}
+                                        image={pirate.image}
+                                />
+                        ))}
+                        </div>
+                        </Wrapper>
+                );
+        };
+};
 
 export default App;
