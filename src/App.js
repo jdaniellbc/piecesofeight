@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import PirateCard from './components/PirateCard';
+import Pirate from './components/Pirate';
 import Wrapper from "./components/Wrapper";
-// import Header from '.components/Header';
+import Footer from './components/Footer';
+import Header from './components/Header';
 import data from './data.json';
 import './App.css';
 
@@ -11,17 +12,21 @@ class App extends Component {
         };
         render() {
                 return (
-                        <Wrapper>
-                        <div>{this.state.data.map(pirate => (
-                                <PirateCard
-                                        // setClicked={this.setClicked}
-                                        id={pirate.id}
-                                        key={pirate.id}
-                                        image={pirate.image}
-                                />
-                        ))}
+                        <div>
+                                <Header />
+                                <Wrapper>
+                                        {this.state.data.map(pirate => (
+                                                <Pirate
+                                                        // setClicked={this.setClicked}
+                                                        id={pirate.id}
+                                                        key={pirate.id}
+                                                        image={pirate.image}
+                                                />
+                                        ))}
+                                        
+                                </Wrapper>
+                                <Footer />
                         </div>
-                        </Wrapper>
                 );
         };
 };
