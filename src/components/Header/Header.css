@@ -3,11 +3,10 @@
   font-family: sans-serif;
   width: 100%;
   text-align: center;
-
 }
 
 * {
-    color: black;
+    color: white;
     font-family: 'Calligraffitti', cursive;
-  background: rgb(45, 163, 114);
+  background: rgb(31, 71, 54);
 }

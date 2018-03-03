@@ -8,6 +8,7 @@ const Header = props => (
         <h3>
             Click on each image in succession and don't repeat or you'll walk the plank!
         </h3>
+        
     </header>
 );
 
