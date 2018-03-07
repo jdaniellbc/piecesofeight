@@ -1,12 +1,8 @@
 .header {
   box-sizing: border-box;
-  font-family: sans-serif;
   width: 100%;
   text-align: center;
-}
-
-* {
-    color: white;
-    font-family: 'Calligraffitti', cursive;
+  color: white;
+  font-family: 'Calligraffitti', cursive;
   background: rgb(31, 71, 54);
 }

@@ -56,9 +56,9 @@ class App extends Component {
         render() {
                 return (
                         <Wrapper>
-                                <Scoreboard />
+                                
                                 <Header />
-
+                                <Scoreboard />
 
                                 {this.state.data.map(pirate => (
                                         <Pirate

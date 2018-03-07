@@ -7,6 +7,7 @@ const Pirate = props => (
         
             <img alt={props.id} src={props.image} />
         </div>
+
     </div>
 );
 
