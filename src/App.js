@@ -55,8 +55,7 @@ class App extends Component {
 
         render() {
                 return (
-                        <Wrapper>
-                                
+                        <Wrapper>     
                                 <Header />
                                 <Scoreboard />
 

@@ -3,11 +3,8 @@
   border-radius: 2px;
   position: relative;
   text-align: left;
-  /* flex-wrap: wrap; */
-  /* flex-flow: row wrap; */
-  padding: 20px;
   justify-content: space-around;
-  /* align-content: flex-start;  */
+  align-content: flex-start; 
 }
 .img-container {
   overflow: hidden;
@@ -18,8 +15,5 @@
   justify-content: center;
 } 
 
-/* .pirate-pic > .img-container > img {
-  height: 75%;
-  width: 75%;
-}  */
+
 
